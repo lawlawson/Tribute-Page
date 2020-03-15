@@ -1,21 +1,21 @@
+/************ Import of font ****************/
+
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+
+/******* HEADINGS ********/
+
+html {
+  /*Setting a base font size of 10px gives easier rem calculations
+  1rem = 18px
+*/
+  font-size: 18px;
+  font-family: 'Barlow', sans-serif;
+}
+
 h1 {
-  color: red;
-}
-
-body {
-  background-color: grey;
-}
-img {
-  border-radius: 10px;
-  position: center;
-}
-
-#section1 {
-}
-
-p {
-  margin: 20px 50px;
-  text-align: justify;
+  font-family: 'Barlow', sans-serif;
+  color: #800000;
+  font-size: 4rem;
 }
 
 h2 {
@@ -28,6 +28,52 @@ h4 {
   margin-left: 10px;
 }
 
+/****************** BODY *****************/
+
+body {
+  background-color: #dcdcdc;
+}
+
+img {
+  border-radius: 30px;
+  position: center;
+  margin: auto;
+  padding: 20px;
+  width: 50%;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#img-div {
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 30px;
+}
+
+#main {
+  text-align: center;
+  background-color: #dcdcdc;
+  margin: 0;
+  padding: 10px;
+}
+
+#tribute-info {
+  margin: 0 auto;
+  text-align: justify;
+  background-color: #dcdcdc;
+  padding: 0 auto;
+}
+
+p {
+  margin: auto;
+  text-align: justify;
+}
+
 ul {
   margin: 0 30px;
   list-style: none;
@@ -36,13 +82,20 @@ ul {
 #wiki-link {
   padding-top: 20px;
   text-align: center;
+  background-color: maroon;
+  margin: 0;
+  color: whitesmoke;
+  padding: 20px;
 }
 
 .bio-text {
-  padding: 1px 150px;
-  margin-top: 20px;
+  padding: 20px;
+  margin-top: 0;
 }
 
 .honors {
   text-align: center;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 20px;
 }
